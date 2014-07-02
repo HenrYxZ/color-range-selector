@@ -55,6 +55,9 @@ def main():
 	if (path == '0'):
 		path = int(0)
 	video = cv2.VideoCapture(path)
+	if (video is None) or (not video.isOpened()):
+		print('Warning: unable to open video source: ' +  path)
+		return
 	print ("At runtime you can press r to use BGR range\n"+
 		   "h to use HSV, esc to exit, and space to pause the video.\n"+
 		   "Now press Enter to continue ...")
