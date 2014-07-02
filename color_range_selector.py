@@ -80,6 +80,8 @@ def main():
 
 		if(not pause):
 			ret, current_img = video.read()
+			if not ret:
+				break
 			cv2.imshow("Video", current_img)
 
 		new_range()
