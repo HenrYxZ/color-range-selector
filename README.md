@@ -3,6 +3,8 @@ color-range-selector
 
 A Python - OpenCV application for selecting a range of color for segmenting images or videos.
 
+![showcase image](showcase.png)
+
 ## Usage
 
 1. Run ``python color_range_selector.py``
@@ -11,7 +13,7 @@ A Python - OpenCV application for selecting a range of color for segmenting imag
 
 ## Dependencies
 
-* Python 2.x
-* OpenCV 2.x
+* Python
+* OpenCV
 
-by Hernaldo Henriquez
+by Jesús Henriquez
